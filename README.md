@@ -10,7 +10,7 @@ A simple Python script that exports all AWS EventBridge Schedulers and saves the
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 - Python 3.10 or higher
 - AWS access key with permissions for `scheduler:ListSchedules` and `scheduler:GetSchedule`
@@ -85,7 +85,7 @@ Each scheduler will be saved as a separate `.json` file inside the `schedulers/`
 
 ---
 
-## ✅ Example Output
+## Example Output
 
 ```bash
 Exporting: daily-job-processor
